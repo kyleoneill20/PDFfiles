@@ -1,9 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T02:37:05.641Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" version="22.1.3" etag="JCDuMYruixHbSZZiCDZI" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-24T03:10:18.616Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="t54Q5qaHcY2UgOgVEtF6" version="22.1.3" type="github">
   <diagram name="Page-1" id="Qkn11BYsTy4Z1x7H3dVa">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="KI8K8sq1PDkBRWDOQHUJ-2" target="KI8K8sq1PDkBRWDOQHUJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-8" value="Customer misses check-in time / Move to Missed state" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;" vertex="1" connectable="0" parent="KI8K8sq1PDkBRWDOQHUJ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-2" value="Reservation" style="html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="260" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-4" value="" style="ellipse;html=1;shape=startState;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" source="KI8K8sq1PDkBRWDOQHUJ-4" parent="1" target="KI8K8sq1PDkBRWDOQHUJ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-28" value="+Scheduled&amp;nbsp;Reserve Room" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#143642;" vertex="1" connectable="0" parent="KI8K8sq1PDkBRWDOQHUJ-5">
+          <mxGeometry x="-0.2286" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="KI8K8sq1PDkBRWDOQHUJ-6" target="KI8K8sq1PDkBRWDOQHUJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-29" value="&lt;br style=&quot;border-color: var(--border-color); caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot;&gt;Reservation ends / Move to Overdue state" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#143642;" vertex="1" connectable="0" parent="KI8K8sq1PDkBRWDOQHUJ-10">
+          <mxGeometry x="0.0198" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-6" value=" Missed " style="html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="570" y="290" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="KI8K8sq1PDkBRWDOQHUJ-9" target="KI8K8sq1PDkBRWDOQHUJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-30" value="Customer checks in / Move to Checked In state" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#143642;" vertex="1" connectable="0" parent="KI8K8sq1PDkBRWDOQHUJ-13">
+          <mxGeometry x="0.079" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-9" value="    Overdue  " style="html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="410" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-16" value="Customer extends reservation / Move to Extended state" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="KI8K8sq1PDkBRWDOQHUJ-12" target="KI8K8sq1PDkBRWDOQHUJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-12" value="Checked In" style="html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="570" y="500" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="KI8K8sq1PDkBRWDOQHUJ-14" target="KI8K8sq1PDkBRWDOQHUJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-31" value="Customer overstays reservation / Move to Overstayed state" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#143642;" vertex="1" connectable="0" parent="KI8K8sq1PDkBRWDOQHUJ-18">
+          <mxGeometry x="0.0624" y="4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-14" value="Extended" style="html=1;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="585" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="KI8K8sq1PDkBRWDOQHUJ-15" target="KI8K8sq1PDkBRWDOQHUJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-24" value="Customer is charged additional fees / Move to Charged state" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#143642;" vertex="1" connectable="0" parent="KI8K8sq1PDkBRWDOQHUJ-23">
+          <mxGeometry x="-0.1667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-15" value="Overstayed" style="html=1;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="570" y="690" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-27" value="Rewards points expire / Move to Points Expired state" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="KI8K8sq1PDkBRWDOQHUJ-20" target="KI8K8sq1PDkBRWDOQHUJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-20" value="Complete" style="html=1;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="570" y="870" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="KI8K8sq1PDkBRWDOQHUJ-21" target="KI8K8sq1PDkBRWDOQHUJ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-26" value="Customer checks out / Move to Complete state" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#143642;" vertex="1" connectable="0" parent="KI8K8sq1PDkBRWDOQHUJ-25">
+          <mxGeometry x="-0.2333" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-21" value="Charged" style="html=1;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="780" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8K8sq1PDkBRWDOQHUJ-22" value="Points Expired" style="html=1;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="960" width="110" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
